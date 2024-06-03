@@ -1,0 +1,40 @@
+body {
+    height: auto;
+    margin-block: 0px;
+    margin-inline: 15%;
+}
+header {
+    background-color: orange;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 0;
+    font-family: arial;
+    font-size: 50px;
+}
+header h2 {
+    margin-bottom: 0;
+    font-family: arial;
+    font-size: 25px;
+}
+main {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+main h2 {
+    margin: 0px;
+    font-family: arial;
+}
+.pergunta {
+    margin-block: 200px;
+}
